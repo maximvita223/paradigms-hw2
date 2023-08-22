@@ -10,9 +10,6 @@ def wave_algoritm(maze, start, end):
     queue = [start]
     visited = set()
     visited.add(start)
-    width = len(maze)
-    height = len(maze[0])
-
 
     while queue:
         x, y, dist = queue.pop(0)
